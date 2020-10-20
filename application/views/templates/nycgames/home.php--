@@ -1,0 +1,275 @@
+
+<div class="slide-fullw mrgbt0">
+            <div class="js-slider-home2">
+
+                <?php
+                $i=0;
+                foreach($sliderProducts as $slider){
+
+                    // echo "<pre>";
+                    // var_dump($sliderProducts);
+                    // die();
+
+                    ?>
+                <div class="e-slide-img">
+                    <img src="<?= base_url('attachments/shop_images/' . $slider['image']) ?>" alt="">
+                    <div class="slide-content v4 box-center">
+                        <div class="container container-240">
+                           
+                            <!--<p class="cate">Banner (Console)</p>-->
+                           
+                            <h3 class="v4"> <?= character_limiter($slider['title'], 40) ?>
+                                    </h3>
+                            <p class="sale v3">  
+                            <?= character_limiter(strip_tags($slider['basic_description']), 40) ?>
+                                </p>
+                           <!-- <a href="<?= LANG_URL . '/' . $slider['url'] ?>" class="slide-btn e-orange-gradient" tabindex="0">Shop now<i class="ion-ios-arrow-forward"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+                <?php $i++; } ?>
+            </div>
+            </div>
+        </div>
+       
+        
+        <div class="header-mid">
+                <div class="header-cate e-gradient hidden-xs hidden-sm mrgbt50">
+               <ul>
+                   <li>
+                        <a href="<?php echo base_url();?>home/category_list/31"><img class="tprs" src="<?php echo base_url()?>assets/assets/img/icon/nintendo-icon.png" alt="">Nintendo</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url();?>category_list/30"><img class="tprs" src="<?php echo base_url()?>assets/assets/img/icon/playstation.png" alt="">Play station<span class="h-ribbon h-pos v2 e-red">Hot</span></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url();?>category_list/32"><img class="tprs" src="<?php echo base_url()?>assets/assets/img/icon/xbox.png" alt="">XBox</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url();?>category_list/30"><img class="tprs" src="<?php echo base_url()?>assets/assets/img/icon/game.png" alt="">Games & Consoles<span class="h-ribbon h-pos v2 e-skyblue">new</span></a>
+                    </li>
+            
+                    <li>
+                        <a href="<?php echo base_url();?>category_list/31"><img class="tprs" src="<?php echo base_url()?>assets/assets/img/icon/accessories.png" alt="">Accessories</a>
+                    </li>
+                    
+               </ul>
+           </div>
+        <!-- End Slide -->
+        <!-- Homepage banner -->
+        <div class="homepage-banner spc2">
+            <div class="container container-240">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="banner-img effect-img3 plus-zoom">
+                            <a href="<?php  echo base_url ();?>home/category_list/30" class=""><img src="<?php echo base_url()?>assets/assets/second/first.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="banner-img effect-img3 plus-zoom">
+                            <a href="<?php  echo base_url ();?>home/category_list/32"><img src="<?php echo base_url()?>assets/assets/second/second.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="banner-img effect-img3 plus-zoom">
+                            <a href="<?php  echo base_url ();?>home/category_list/31"><img src="<?php echo base_url()?>assets/assets/second/third.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Homepage banner -->
+        <!-- super deal -->
+        
+        
+        <div class="super-deal v2">
+            <div class="container container-240">
+                <div class="owl-carousel owl-theme owl-cate  js-oneitem2">
+
+                    <?php 
+                    // echo "<pre>";
+                    // var_dump($Super_deal);
+                    // die();
+
+                    if(!empty($Super_deal))
+
+                       foreach ($Super_deal as $super)
+                        { ?>
+
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="product-countd pd-bd spc2 bg product-inner">
+                                <div class="product-item-countd">
+                                    <div class="product-info">
+                                        <h1 class="deal-title text-center">Super Deals</h1>
+                                        <h3 class="product-title text-center v4"><a href="#"><?php $super['title']; ?></a></h3>
+                                        <div class="product-price thin-price v3 no-bg bd">
+                                            <span class="red">AED <?php echo $super['price']; ?></span>
+                                            <span class="old">AED <?php echo $super['old_price'];?></span>
+                                        </div>
+                                        <div class="deal-progress">
+                                            <div class="deal-stock">
+                                                <span class="stock-sold">19% already claimed</span>
+                                                <span class="stock-available">Available: <strong>22</strong></span>
+                                            </div>
+                                            <div class="progress">
+                                                <span class="progress-bar" style="width:27.5956%"></span>
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="time-cound">
+                                            <p class="text-center">Deal ends in :</p>
+                                            <div class="countdown countdown-time" data-countdown="countdown" data-date="08-31-2018-00-00-00">
+                                            </div>
+                                        </div>
+                                         -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="product-wrapper">
+                                <div class="flex product-img-slide">
+                                    <div class="product-images v2">
+                                        <div class="main-img v2 js-product-slider">
+
+
+                                            <?php
+            if ($super['folder'] != null) {
+                $dir = "attachments/shop_images/" . $super['folder'] . '/';
+                ?>
+                    <?php
+                    if (is_dir($dir)) {
+                        if ($dh = opendir($dir)) {
+                            $i = 1;
+                            while (($file = readdir($dh)) !== false) {
+                                if (is_file($dir . $file)) {
+                                    ?>
+
+                                    <a href="<?= LANG_URL . '/' . $super['url'] ?>" class="hover-images effect"><img src="<?= base_url($dir . $file) ?>" alt=""class="img-reponsive">
+
+                                    </a>
+                                        
+                                    <?php
+                                    $i++;
+                                }
+                            }
+                            closedir($dh);
+                        }
+                    }
+                    ?>
+                <?php
+            }
+            ?>
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                    <div class="multiple-img-list-ver2 v2 js-click-product">
+
+
+                                         <?php
+            if ($super['folder'] != null) {
+                $dir = "attachments/shop_images/" . $super['folder'] . '/';
+                ?>
+                    <?php
+                    if (is_dir($dir)) {
+                        if ($dh = opendir($dir)) {
+                            $i = 1;
+                            while (($file = readdir($dh)) !== false) {
+                                if (is_file($dir . $file)) {
+                                    ?>
+
+                                        <div class="product-col v2">
+                                            <div class="img active">
+                                                <img src="<?= base_url($dir . $file) ?>" alt="photo" class="img-reponsive">
+                                            </div>
+                                        </div>
+
+
+                                        
+                                    <?php
+                                    $i++;
+                                }
+                            }
+                            closedir($dh);
+                        }
+                    }
+                    ?>
+                <?php
+            }
+            ?>
+
+
+                                        <!-- <div class="product-col v2">
+                                            <div class="img">
+                                                <img src="<?php echo base_url()?>assets/images/products/Sony-PS4-Camera4.jpg" alt="images" class="img-responsive">
+                                            </div>
+                                        </div>
+                                         -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                           
+                       <?php } ?>
+                  
+
+
+
+
+<!--                     <div class="row">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="product-countd pd-bd spc2 bg product-inner">
+                                <div class="product-item-countd">
+                                    <div class="product-info">
+                                        <h1 class="deal-title text-center">Super Deals</h1>
+                                        <h3 class="product-title text-center v4"><a href="#">Smart Watch Silver Aluminum Case Sport Band</a></h3>
+                                        <div class="product-price thin-price v3 no-bg bd">
+                                            <span class="red">$79.00</span>
+                                            <span class="old">$99.00</span>
+                                        </div>
+                                        <div class="deal-progress">
+                                            <div class="deal-stock">
+                                                <span class="stock-sold">19% already claimed</span>
+                                                <span class="stock-available">Available: <strong>22</strong></span>
+                                            </div>
+                                            <div class="progress">
+                                                <span class="progress-bar" style="width:27.5956%"></span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cound">
+                                            <p class="text-center">Deal ends in :</p>
+                                            <div class="countdown countdown-time" data-countdown="countdown" data-date="08-31-2018-00-00-00">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="product-wrapper">
+                                <div class="flex product-img-slide">
+                                    <div class="product-images v2">
+                                        <div class="main-img v2 js-product-slider">
+                                            <a href="#" class="hover-images effect"><img src="<?php echo base_url()?>assets/images/products/Ghost-of-Tsushima-Collector-Edition1.jpg" alt="photo" class="img-reponsive"></a>
+                                            <a href="#" class="hover-images effect"><img src="<?php echo base_url()?>assets/images/products/Ghost-of-Tsushima-Collector-Edition2.jpg" alt="photo" class="img-reponsive"></a>
+                                            <a href="#" class="hover-images effect"><img src="<?php echo base_url()?>assets/images/products/Ghost-of-Tsushima-Collector-Edition3.jpg" alt="photo" class="img-reponsive"></a>
+                                            <a href="#" class="hover-images effect"><img src="<?php echo base_url()?>assets/images/products/Ghost-of-Tsushima-Collector-Edition4.jpg" alt="photo" class="img-reponsive"></a>
+                                        </div>
+                                    </div>
+                                    <div class="multiple-img-list-ver2 v2 js-click-product">
+                                        <div class="product-col v2">
+                                            <div class="img active">
+                                                <img src="<?php echo base_url()?>assets/images/products/Ghost-of-Tsushima-Collector-Edition1.jpg" alt="photo" class="img-reponsive">
+                                            </div>
+                                        </div>
+                                        <div class="product-col%2

@@ -1,0 +1,144 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-19 07:08:52 --> 404 Page Not Found: Home/img
+ERROR - 2020-10-19 07:08:52 --> 404 Page Not Found: Home/assets
+ERROR - 2020-10-19 07:09:11 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:11 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:11 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:11 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:33 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:09:45 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:10:53 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:10:56 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:10:57 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:10:57 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:10:57 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:10:58 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:13:01 --> Severity: Notice --> Undefined index: logged_user C:\xampp\htdocs\nyc-v4\application\controllers\Home.php 322
+ERROR - 2020-10-19 07:13:01 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `rating` (`rating`, `user_id`, `product_id`, `review`) VALUES ('3', NULL, '33', 'This is final testing ')
+ERROR - 2020-10-19 07:13:30 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:14:14 --> Severity: Notice --> Undefined index: logged_user C:\xampp\htdocs\nyc-v4\application\controllers\Home.php 322
+ERROR - 2020-10-19 07:14:14 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `rating` (`rating`, `user_id`, `product_id`, `review`) VALUES ('3', NULL, '33', 'This is final testing ')
+ERROR - 2020-10-19 07:15:46 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:20:26 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:22:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:22:39 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:34:44 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:35:01 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:35:04 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:38:30 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:39:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:39:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:39:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:39:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:42:22 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:42:29 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:57:33 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:57:45 --> Severity: Notice --> Undefined index: logged_user C:\xampp\htdocs\nyc-v4\application\controllers\Home.php 321
+ERROR - 2020-10-19 07:57:45 --> Query error: Column 'user_id' cannot be null - Invalid query: INSERT INTO `rating` (`rating`, `user_id`, `product_id`, `review`) VALUES ('3', NULL, '33', 'This is the test')
+ERROR - 2020-10-19 07:59:24 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF) C:\xampp\htdocs\nyc-v4\application\controllers\Home.php 320
+ERROR - 2020-10-19 07:59:30 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 07:59:36 --> Severity: Notice --> Undefined index: logged_user C:\xampp\htdocs\nyc-v4\application\controllers\Home.php 318
+ERROR - 2020-10-19 08:01:44 --> Severity: error --> Exception: syntax error, unexpected 'echo' (T_ECHO) C:\xampp\htdocs\nyc-v4\application\controllers\Home.php 321
+ERROR - 2020-10-19 08:28:17 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ',' or ')' C:\xampp\htdocs\nyc-v4\application\views\templates\nycgames\_parts\header.php 295
+ERROR - 2020-10-19 08:34:18 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:34:26 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:35:28 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:35:38 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:35:40 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:35:49 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:35:59 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:37:13 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:37:19 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:44:31 --> Severity: error --> Exception: syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' C:\xampp\htdocs\nyc-v4\application\views\templates\nycgames\_parts\header.php 292
+ERROR - 2020-10-19 08:44:49 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:44:52 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:45:00 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:46:05 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:19 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:20 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:23 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:28 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:35 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:50:48 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:52:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:52:32 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:52:49 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:53:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:54:35 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:54:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:54:46 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 08:54:57 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 09:57:44 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 09:58:54 --> 404 Page Not Found: Home/img
+ERROR - 2020-10-19 11:01:02 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:01:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:01:22 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:07 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:09 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:10 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:10 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:10 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:16 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:16 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:03:16 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:16 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:27 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:08:43 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:12:03 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:12:07 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:12:17 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:12:26 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:12:39 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:14:52 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:14:54 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:15:07 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:16:45 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:16:58 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:17:16 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:19:17 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:19:29 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:29:46 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:35:52 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:35:52 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:35:52 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:35:52 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:36:11 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:37:50 --> 404 Page Not Found: Home/img
+ERROR - 2020-10-19 11:37:53 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:46:18 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:47:07 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:47:17 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:47:28 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:47:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:28 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:33 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:33 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:33 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:33 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:45 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:45 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:45 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:46 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:50:48 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:53:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:53:56 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 11:54:05 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 13:11:21 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 13:11:35 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 13:11:48 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 13:11:49 --> 404 Page Not Found: /index
+ERROR - 2020-10-19 13:12:15 --> 404 Page Not Found: /index

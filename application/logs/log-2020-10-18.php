@@ -1,0 +1,62 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-18 09:18:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:19:26 --> Query error: Unknown column 'img' in 'where clause' - Invalid query: SELECT products.shop_categorie as category_id,vendors.url as vendor_url, products_translations.description as description, products.id, products.quantity,products.image,products.url,products_translations.price,products_translations.title,products_translations.old_price FROM products left JOIN vendors ON vendors.id=products.vendor_id 
+        LEFT JOIN products_translations ON products_translations.for_id =products.id
+         WHERE  products.in_slider=0 AND shop_categorie=img AND visibility=1 ORDER BY ID DESC
+ERROR - 2020-10-18 09:19:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:19:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:19:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:19:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:19:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:19:50 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:05 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:13 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:14 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:16 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:17 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:18 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:20:18 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:21:17 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:26:44 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:26:49 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:27:20 --> 404 Page Not Found: Home/img
+ERROR - 2020-10-18 09:28:21 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:28:32 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:28:42 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:28:42 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:28:42 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:28:46 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:12 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:17 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:29 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:29:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 09:30:47 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:05:22 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:05:23 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:07:13 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:26:18 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:26:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:26:35 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:26:35 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:26:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:26:37 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:23 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:24 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:27 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:31 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:35 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:56 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:37:59 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:38:06 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:38:25 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:38:36 --> 404 Page Not Found: /index
+ERROR - 2020-10-18 17:39:03 --> 404 Page Not Found: /index
